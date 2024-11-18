@@ -32,6 +32,16 @@ namespace GenericDemo
 
 
             //new GenericClass<List<int>>();
+
+            var myList = new NeverOutOfBoundsList<int>();
+
+            myList.Add(4);
+            myList.Add(8);
+            myList.Add(15);
+
+            myList[3] = 4567;
+            Console.WriteLine(myList[12]);
+
         }
     }
 }
