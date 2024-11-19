@@ -10,7 +10,10 @@ internal class Program
         
         //new List<int>()
 
-        foreach (var item in GeefInts().)
+        //new List<int>().ForEach()
+
+
+        foreach (var item in GeefInts())
         {
             Console.WriteLine($"item: {item}");
         }
