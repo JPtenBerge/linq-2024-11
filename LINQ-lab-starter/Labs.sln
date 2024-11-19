@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_02", "Lab_02\Lab_02.csproj", "{B6C3BBEE-D6BC-4B35-AAC4-3B5DBBE6F628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHelper", "DataHelper\DataHelper.csproj", "{1E1CC8ED-D8D9-4579-A4A8-B99589E00A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6C3BBEE-D6BC-4B35-AAC4-3B5DBBE6F628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C3BBEE-D6BC-4B35-AAC4-3B5DBBE6F628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C3BBEE-D6BC-4B35-AAC4-3B5DBBE6F628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C3BBEE-D6BC-4B35-AAC4-3B5DBBE6F628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1CC8ED-D8D9-4579-A4A8-B99589E00A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1CC8ED-D8D9-4579-A4A8-B99589E00A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1CC8ED-D8D9-4579-A4A8-B99589E00A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1CC8ED-D8D9-4579-A4A8-B99589E00A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
