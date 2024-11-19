@@ -69,6 +69,20 @@
                 Console.WriteLine("met comprehension product: " + item.Beschrijving + " kost " + item.Prijs);
             }
 
+            // first vs firstordefault - de eerste geeft error als er niks in zit, de tweede de default value
+            // single vs singleordefault - de eerste geeft error als er niks in zit, de tweede de default value
+            // first vs single? single checkt of hij ook echt maar 1 resultaat krijgt
+            var eerste = producten.SingleOrDefault();
+            Console.WriteLine(eerste.Beschrijving);
+
+//            DataSource.Products.First()
+//DataSource.Products.FirstOrDefault()
+//DataSource.Products.Single()
+//DataSource.Products.SingleOrDefault()
+
+
+
+
         }
     }
 
